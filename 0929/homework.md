@@ -44,3 +44,5 @@ score = int(input("please enter your score:")) #把str 改成int
 print(score+10)
 ```
 ![image](https://user-images.githubusercontent.com/90738394/135380576-03fd474c-f18c-475b-8b6b-319edff5060f.png)
+# 格式化輸出
+
