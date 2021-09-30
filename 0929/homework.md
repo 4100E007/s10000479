@@ -32,6 +32,7 @@ TypeError: can only concatenate str (not "int") to str
 TypeError:資料型態錯誤
 
 ```
+# 更正過後的程式碼
 ```
 int()函數與eval()函數
 把字串轉換成數字
