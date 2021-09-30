@@ -14,3 +14,17 @@ type(a) #查看a的資料型態
 
 ```
 ![git](https://user-images.githubusercontent.com/90738394/135252112-51cb060c-38fb-4cbe-91bd-484e164fb458.PNG)
+```
+老師希望能夠把分數加十分
+score = input("please enter your score:")
+print(score+10)
+得到的結果卻是:
+* please enter your score:50
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-1-a91813643229> in <module>()
+      1 score = input("please enter your score:")
+----> 2 print(score+10)
+
+TypeError: can only concatenate str (not "int") to str
+```
