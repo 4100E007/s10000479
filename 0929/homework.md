@@ -54,7 +54,12 @@ print(score+10)
 # example 
 ```
 使用format方式
-print("i love {} from{} ".format("music","japan"))
+print("i love {} from {} ".format("music","japan"))
 ```
 ![image](https://user-images.githubusercontent.com/90738394/135554116-6c1ef8c4-06db-4dd5-9c48-e7f880b4c665.png)
+```
+#使用位置表達
+print("i love {1} from {0} ".format("music","japan"))
+```
+![image](https://user-images.githubusercontent.com/90738394/135554475-9af5acca-d8f8-46c9-8caa-9561d51a344c.png)
 
