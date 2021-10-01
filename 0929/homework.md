@@ -2,7 +2,7 @@
 ```
 python: 輸入input() 
 使用輸入函數得到的資料型態會是str(字串)
-python: 輸出ootput()
+python: 輸出output()
 ```
 ---
 ### example
@@ -56,3 +56,5 @@ print(score+10)
 使用format方式
 print("i love {} from{} ".format("music","japan"))
 ```
+![image](https://user-images.githubusercontent.com/90738394/135554116-6c1ef8c4-06db-4dd5-9c48-e7f880b4c665.png)
+
