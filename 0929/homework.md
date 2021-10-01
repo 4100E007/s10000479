@@ -45,4 +45,14 @@ print(score+10)
 ```
 ![image](https://user-images.githubusercontent.com/90738394/135380576-03fd474c-f18c-475b-8b6b-319edff5060f.png)
 # 格式化輸出
+```
+1.使用String modulo operator(%)
+2.使用format 方法
 
+```
+# example 
+```
+使用format方式
+print(
+)
+```
