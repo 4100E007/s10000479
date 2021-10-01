@@ -69,3 +69,4 @@ print("Happy : %2d, Python : %5.2f" % (1, 05.333))
 # 列印字串
 print("Happy %s day" % ("python"))
 
+![image](https://user-images.githubusercontent.com/90738394/135558492-69a76a39-43aa-45ca-99e5-23408709ad3e.png)
