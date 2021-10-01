@@ -62,4 +62,10 @@ print("i love {} from {} ".format("music","japan"))
 print("i love {1} from {0} ".format("music","japan"))
 ```
 ![image](https://user-images.githubusercontent.com/90738394/135554475-9af5acca-d8f8-46c9-8caa-9561d51a344c.png)
+使用String modulo operator(%)
+# 列印整數(integer)與 浮點數(float) 的值
+print("Happy : %2d, Python : %5.2f" % (1, 05.333))
+ 
+# 列印字串
+print("Happy %s day" % ("python"))
 
