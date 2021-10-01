@@ -33,6 +33,7 @@ TypeError:資料型態錯誤
 
 ```
 # 更正過後的程式碼
+
 ```
 int()函數與eval()函數
 把字串轉換成數字
@@ -53,6 +54,5 @@ print(score+10)
 # example 
 ```
 使用format方式
-print(
-)
+print("i love {} from{} ".format("music","japan"))
 ```
