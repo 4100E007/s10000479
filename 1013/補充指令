@@ -1,0 +1,11 @@
+# linux1
+```
+ls --列出
+ls --列出隱藏檔案
+ls -al
+```
+
+# linux 2
+```
+xxd -r(reverse) -p
+```
