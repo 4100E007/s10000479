@@ -1,3 +1,6 @@
+# window
+
+```
 C:\Users\user>curl -h
 Usage: curl [options...] <url>
      --abstract-unix-socket <path> Connect via abstract Unix domain socket
@@ -210,3 +213,4 @@ Usage: curl [options...] <url>
  -V, --version       Show version number and quit
  -w, --write-out <format> Use output FORMAT after completion
      --xattr         Store metadata in extended file attributes
+ ```
