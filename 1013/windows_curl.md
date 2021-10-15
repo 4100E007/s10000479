@@ -13,7 +13,7 @@ Usage: curl [options...] <url>
      --cert-status   Verify the status of the server certificate
      --cert-type <type> Certificate file type (DER/PEM/ENG)
      --ciphers <list of ciphers> SSL ciphers to use
-     --compressed    Request compressed response
+     --compressed(壓縮)    Request compressed response
  -K, --config <file> Read config from a file
      --connect-timeout <seconds> Maximum time allowed for connection
      --connect-to <HOST1:PORT1:HOST2:PORT2> Connect to host
