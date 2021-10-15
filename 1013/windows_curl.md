@@ -1,13 +1,13 @@
 # window
-
+### curl (在linux中curl是一個利用URL規則在命令列下工作的檔案傳輸工具)
 ```
 C:\Users\user>curl -h
 Usage: curl [options...] <url>
-     --abstract-unix-socket <path> Connect via abstract Unix domain socket
-     --anyauth       Pick any authentication method
+     --abstract(.n: 抽象的 .v : 提取)-unix-socket <path> Connect via abstract Unix domain(領域) socket
+     --anyauth       Pick any authentication(證明) method
  -a, --append        Append to target file when uploading
      --basic         Use HTTP Basic Authentication
-     --cacert <CA certificate> CA certificate to verify peer against
+     --cacert <CA certificate(鑑定)> CA certificate to verify peer(盯) against
      --capath <dir>  CA directory to verify peer against
  -E, --cert <certificate[:password]> Client certificate file and password
      --cert-status   Verify the status of the server certificate
