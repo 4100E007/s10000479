@@ -167,9 +167,9 @@ Options: (H) means HTTP/HTTPS only, (F) means FTP only
      --tlsv1.2       Use TLSv1.2 (SSL)
      --trace FILE    Write a debug trace to FILE
      --trace-ascii FILE  Like --trace, but without hex output
-     --trace-time    Add time stamps to trace/verbose output
+     --trace-time    Add time stamps(標記) to trace/verbose output
      --tr-encoding   Request compressed transfer encoding (H)
- -T, --upload-file FILE  Transfer FILE to destination
+ -T, --upload-file FILE  Transfer FILE to destination(目的地)
      --url URL       URL to work with
  -B, --use-ascii     Use ASCII/text transfer
  -u, --user USER[:PASSWORD]  Server user and password
@@ -180,7 +180,7 @@ Options: (H) means HTTP/HTTPS only, (F) means FTP only
  -A, --user-agent STRING  Send User-Agent STRING to server (H)
  -v, --verbose       Make the operation more talkative
  -V, --version       Show version number and quit
- -w, --write-out FORMAT  Use output FORMAT after completion
+ -w, --write-out FORMAT  Use output FORMAT after completion(結束)
      --xattr         Store metadata in extended file attributes
  -q                  Disable .curlrc (must be first parameter)
 
