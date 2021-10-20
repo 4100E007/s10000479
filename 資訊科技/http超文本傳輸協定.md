@@ -9,7 +9,13 @@
 ![image](https://user-images.githubusercontent.com/90738394/138025167-1ad6bd2a-4cc4-4b52-9a56-3e6039dcae97.png)
 
 
+## http response
+![image](https://user-images.githubusercontent.com/90738394/138025288-20fe6168-2144-4353-88cc-f94f0448bb15.png)
 
+## HTTP狀態碼
+|類別||狀態馬|
+|......||......|
+|1xx|
 ### 請求方法
 > http中定義了8種方法
 1. GET
