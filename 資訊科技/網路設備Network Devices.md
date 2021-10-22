@@ -2,6 +2,7 @@
 ![image](https://user-images.githubusercontent.com/90738394/138015854-b2fe071c-cdf2-4a18-8430-50c8e04b68eb.png)
 # OSI
 ## 第一層實體層 [physical layer](https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%B1%82)
+## 實體層（Physical Layer）在局部區域網路上傳送資料框（Data Frame），它負責管理電腦通訊裝置和網路媒體之間的互通。包括了針腳、電壓、線纜規範、集線器、中繼器、網卡、主機介面卡等。
 ### [repeater 中繼器](https://zh.wikipedia.org/wiki/%E4%B8%AD%E7%BB%A7%E5%99%A8)
 - 一個將輸入訊號增強放大的類比裝置(以防中途中斷)，而不考慮輸入訊號種類（是類比的還是數位的）。中繼器是用來加強纜線上的訊號，把訊號送得更遠，以延展網路長度
 ### [hub 集線器](https://zh.wikipedia.org/wiki/%E9%9B%86%E7%B7%9A%E5%99%A8)
@@ -11,6 +12,9 @@
 主動型集線器（Active Hub），集線器需連接電源，可加強訊號強度（整波放大）。
 
 ## 第二層資料連結層 [data link layer](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82)
+## 資料連結層（Data Link Layer）負責網路尋址、錯誤偵測和改錯。當表頭和表尾被加至數據包時，會形成資訊框（Data Frame）。數據連結串列頭（DLH）是包含了實體位址和錯誤偵測及改錯的方法。數據連結串列尾（DLT）是一串指示數據包末端的字串。例如乙太網、無線區域網路（Wi-Fi）和通用分組無線服務（GPRS）等。
+
+分為兩個子層：邏輯鏈路控制（logical link control，LLC）子層和媒介存取控制（Media access control，MAC）子層。
 ### 交換器(switch)
 - 通過報文交換接收和轉發資料到目標裝置，它能夠在電腦網路上連接不同的裝置。
 - 交換器是一種多埠的網橋，在資料鏈路層使用`MAC位址`轉發資料。
@@ -25,6 +29,7 @@
    -對於全交換（full-switch）區域網路，交換器每個埠只連接一台裝置，因此不會發生碰撞。交換器也不需要做過濾。
 
 ## 第三層網路層 
+## 網路層（Network Layer）決定數據的路徑選擇和轉寄，將網路表頭（NH）加至數據包，以形成封包。網路表頭包含了網路資料。例如:網際網路協定（IP）等。
 ### [router 路由器](https://zh.wikipedia.org/wiki/%E8%B7%AF%E7%94%B1%E5%99%A8)
 - 提供路由與轉送兩種重要機制，可以決定封包從來源端到目的端所經過的路徑（host到host之間的傳輸路徑）
 - 路由器是提供 Wi-Fi 的裝置，可將互聯網的資訊傳送至個人裝置 (例如電腦、手機或平板電腦)。這些連接互聯網的裝置在您家中會形成局部區域網絡 (LAN)。
@@ -33,6 +38,14 @@
 - 路由器與交換機的差別，路由器是屬於OSI第三層的產品，交換器是OSI第二層的產品。
 
 [路由器參考](https://24h.pchome.com.tw/prod/DRAN36-A900AV1WC)
+## 第四層傳輸層
+## 傳輸層（Transport Layer）把傳輸表頭（TH）加至數據以形成數據包。傳輸表頭包含了所使用的協定等傳送資訊。例如:傳輸控制協定（TCP）等。
+## 第五層會議層
+## 會議層（Session Layer）負責在數據傳輸中設定和維護電腦網路中兩台電腦之間的通訊連接。
+## 第六層表達層
+## 表達層（Presentation Layer）把數據轉換為能與接收者的系統格式相容並適合傳輸的格式。
+## 第七層應用層
+## 應用層（Application Layer）提供為應用軟體而設計的介面，以設定與另一應用軟體之間的通訊。例如：HTTP、HTTPS、FTP、Telnet、SSH、SMTP、POP3等。
 
 
 ![image](https://user-images.githubusercontent.com/90738394/138378076-ca9d499b-937b-4bf5-b10b-658b94329f2d.png)
