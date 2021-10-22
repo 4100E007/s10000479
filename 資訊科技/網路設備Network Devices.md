@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/90738394/138015854-b2fe071c-cdf2-4a18-8430-50c8e04b68eb.png)
 # OSI
 ## 第一層實體層 [physical layer](https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%B1%82)
-## 實體層（Physical Layer）在局部區域網路上傳送資料框（Data Frame），它負責管理電腦通訊裝置和網路媒體之間的互通。包括了針腳、電壓、線纜規範、集線器、中繼器、網卡、主機介面卡等。
+## 實體層（Physical Layer）在局部區域網路上傳送資料框（Data Frame），它負責管理電腦通訊裝置和網路媒體之間的互通。
 ### [repeater 中繼器](https://zh.wikipedia.org/wiki/%E4%B8%AD%E7%BB%A7%E5%99%A8)
 - 一個將輸入訊號增強放大的類比裝置(以防中途中斷)，而不考慮輸入訊號種類（是類比的還是數位的）。中繼器是用來加強纜線上的訊號，把訊號送得更遠，以延展網路長度
 ### [hub 集線器](https://zh.wikipedia.org/wiki/%E9%9B%86%E7%B7%9A%E5%99%A8)
