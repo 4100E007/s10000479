@@ -11,6 +11,10 @@
 主動型集線器（Active Hub），集線器需連接電源，可加強訊號強度（整波放大）。
 
 ## 第二層資料連結層 [data link layer](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82)
+### 交換器(switch)
+- 通過報文交換接收和轉發資料到目標裝置，它能夠在電腦網路上連接不同的裝置。
+- 交換器是一種多埠的網橋，在資料鏈路層使用`MAC位址`轉發資料。
+- 交換器內部的CPU會在每個埠成功連接時，通過將MAC位址和埠對應，形成一張MAC表。在今後的通訊中，發往該MAC位址的封包將僅送往其對應的埠，而不是所有的埠
 
 
 ## 第三層網路層 
@@ -22,4 +26,8 @@
 - 路由器與交換機的差別，路由器是屬於OSI第三層的產品，交換器是OSI第二層的產品。
 
 [路由器參考](https://24h.pchome.com.tw/prod/DRAN36-A900AV1WC)
+
+
+![image](https://user-images.githubusercontent.com/90738394/138378076-ca9d499b-937b-4bf5-b10b-658b94329f2d.png)
+
 
