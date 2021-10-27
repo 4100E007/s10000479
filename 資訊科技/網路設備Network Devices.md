@@ -40,11 +40,11 @@
 ## 第四層傳輸層
 > 傳輸層（Transport Layer）把傳輸表頭（TH）加至數據以形成數據包。傳輸表頭包含了所使用的協定等傳送資訊。例如:傳輸控制協定（TCP）等。
 ## 第五層會議層
-## 會議層（Session Layer）負責在數據傳輸中設定和維護電腦網路中兩台電腦之間的通訊連接。
+> 會議層（Session Layer）負責在數據傳輸中設定和維護電腦網路中兩台電腦之間的通訊連接。
 ## 第六層表達層
-## 表達層（Presentation Layer）把數據轉換為能與接收者的系統格式相容並適合傳輸的格式。
+> 表達層（Presentation Layer）把數據轉換為能與接收者的系統格式相容並適合傳輸的格式。
 ## 第七層應用層
-## 應用層（Application Layer）提供為應用軟體而設計的介面，以設定與另一應用軟體之間的通訊。例如：HTTP、HTTPS、FTP、Telnet、SSH、SMTP、POP3等。
+> 應用層（Application Layer）提供為應用軟體而設計的介面，以設定與另一應用軟體之間的通訊。例如：HTTP、HTTPS、FTP、Telnet、SSH、SMTP、POP3等。
 
 
 ![image](https://user-images.githubusercontent.com/90738394/138378076-ca9d499b-937b-4bf5-b10b-658b94329f2d.png)
