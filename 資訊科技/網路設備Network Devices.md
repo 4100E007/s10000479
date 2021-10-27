@@ -49,6 +49,7 @@
 
 ![image](https://user-images.githubusercontent.com/90738394/138378076-ca9d499b-937b-4bf5-b10b-658b94329f2d.png)
 
+## Transmission Control Protocol / Internet Protocol（TCP/IP）是目前使用最廣泛的網路協定，相較於OSI模型將網路功能分成七層，TCP/IP模型則是將網路功能分成四層，但它並不是將OSI模型中的某些層去掉，而是將功能類似的層合併。
 
 ## 通訊協定
 > 通信協定（英語：Communications Protocol，也稱傳輸協定）在電信領域中指的是，在任何物理媒介中允許兩個或多個在傳輸系統中的終端之間傳播資訊的系統標準，也是指電腦通信或網路裝置的共同語言。[1]， 通信協定定義了通信中的語法學、語意學和同步規則以及可能存在的錯誤檢測與糾正。通信協定在硬體、軟體或兩者之間皆可實現[2]
