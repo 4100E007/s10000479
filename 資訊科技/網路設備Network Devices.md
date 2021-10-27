@@ -50,7 +50,16 @@
 ![image](https://user-images.githubusercontent.com/90738394/138378076-ca9d499b-937b-4bf5-b10b-658b94329f2d.png)
 
 ## Transmission Control Protocol / Internet Protocol（TCP/IP）是目前使用最廣泛的網路協定，相較於OSI模型將網路功能分成七層，TCP/IP模型則是將網路功能分成四層，但它並不是將OSI模型中的某些層去掉，而是將功能類似的層合併。
+### Link Layer
+> 這一層又稱網路介面層（Network Interface Layer），負責與硬體溝通，雖然沒有定義任何通訊協定，但基本上，它支援所有標準的通訊協定。
+### Network Layer
+> 這一層又稱網際網路層（Internet Layer），負責定址與路由等工作，而且資料是以資料元（datagram）為單位，比較知名的通訊協定有IP（Internet Protocol）。
+### Transport Layer
+> 這一層又稱主機對主機層（Host-to-Host Layer），負責區段排序、錯誤控制、流量控制等工作，比較知名的通訊協定有TCP（Transmission Control Protocol）、UDP（User Datagram Protocol）。
+### Application Layer
+> 這一層負責提供網路服務給應用程式，比較知名的通訊協定有FTP（File Transfer Protocol, 檔案傳輸協定）、SMTP（Simple Mail Transfer Protocol, 簡易郵件傳送協定）、POP（Post Office Protocol, 郵件接收協定）、DNS（Domain Name System, 網域名稱系統）、Telnet（遠端登入）、SNMP（Simple Network Management Protocol, 簡易網路管理協定）、HTTP（HyperText Transfer Protocol, 超文字傳輸協定）、NNTP（Network News Transfer Protocol）…等。
 
 ## 通訊協定
 > 通信協定（英語：Communications Protocol，也稱傳輸協定）在電信領域中指的是，在任何物理媒介中允許兩個或多個在傳輸系統中的終端之間傳播資訊的系統標準，也是指電腦通信或網路裝置的共同語言。[1]， 通信協定定義了通信中的語法學、語意學和同步規則以及可能存在的錯誤檢測與糾正。通信協定在硬體、軟體或兩者之間皆可實現[2]
+> 
 
