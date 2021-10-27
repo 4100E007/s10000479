@@ -1,6 +1,7 @@
 # 網路設備Network Devices
 ![image](https://user-images.githubusercontent.com/90738394/138015854-b2fe071c-cdf2-4a18-8430-50c8e04b68eb.png)
 # OSI
+> Open System Interconnection（OSI）是七層的網路架構，稱為開放式系統互聯參考模型，是一個抽象、理論的模型，它將網路分為七層的主要目的是為了解決異構網路互連時所遇到的兼容性問題。最大的優點是將service、port和protocol這三個概念明確區分開來，通過七個層次的結構模型使不同的系統和不同的網路之間實現可靠的通訊。
 ## 第一層實體層 [physical layer](https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%B1%82)
 ## 實體層（Physical Layer）在局部區域網路上傳送資料框（Data Frame），它負責管理電腦通訊裝置和網路媒體之間的互通。
 ### [repeater 中繼器](https://zh.wikipedia.org/wiki/%E4%B8%AD%E7%BB%A7%E5%99%A8)
