@@ -1,3 +1,4 @@
+```
 # Example MySQL config file for small systems.
 #
 # This is for a system with little memory (<= 64M) where MySQL is only used
@@ -179,3 +180,4 @@ read_buffer=2M
 write_buffer=2M
 
 [mysqlhotcopy]
+```
